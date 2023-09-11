@@ -5,3 +5,7 @@ calculator_func_dict = {'+': addition,
 
 while command != 'exit':
     inp = input('Enter your expression:')
+
+def multiply(a,b):
+    return a*b
+
