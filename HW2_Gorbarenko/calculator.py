@@ -21,5 +21,9 @@ def teilen(a,b):
 def delta(a, b):
     return a - b
 
+def  sokol_sum(a,b):
+   return a+b
+
 def multi(a, b):
     return(a * b)
+
