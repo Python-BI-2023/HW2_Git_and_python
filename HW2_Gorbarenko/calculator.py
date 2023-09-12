@@ -1,6 +1,3 @@
-a,b,c = input().split()
-a = int(a)
-c = int(c)
 
 a,b,c = input().split()
 a = int(a)
@@ -24,3 +21,5 @@ def teilen(a,b):
 def delta(a, b):
     return a - b
 
+def multi(a, b):
+    return(a * b)
