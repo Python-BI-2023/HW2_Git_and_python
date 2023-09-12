@@ -1,3 +1,6 @@
+def multiply(x,y):
+    return(x*y)
+
 def main():
 #   eq = [int(i) if i.isdigit() else i for i in input().split()]
     eq = input().split()
