@@ -1,5 +1,10 @@
+
+def multiply(x,y):
+    return(x*y)
+  
 def subtract(eq1,eq2):
 	return(eq1-eq2)
+
 def main():
 #   eq = [int(i) if i.isdigit() else i for i in input().split()]
     eq = input().split()
