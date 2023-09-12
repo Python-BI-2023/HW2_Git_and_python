@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
-
+def divide(a, b):
+    return a / b
 
 def main():
     expression = input("Введите математическое выражение: ")
@@ -23,4 +21,5 @@ def main():
         return
     print(f"Результат: {result:.2f}")
 main()
+
 
