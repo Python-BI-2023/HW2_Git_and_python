@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 def main():
     expression = input("Введите математическое выражение: ")
@@ -24,3 +19,6 @@ def main():
     print(f"Результат: {result:.2f}")
 main()
 
+=======
+def additional(a, b):
+    return a + b
