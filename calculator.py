@@ -1,5 +1,6 @@
 def subtract(a, b):
     return a - b
+
 def main():
     expression = input("Введите математическое выражение: ")
     number1, operator, number2 = expression.split()
