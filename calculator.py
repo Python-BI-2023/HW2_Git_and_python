@@ -19,6 +19,5 @@ def main():
     print(f"Результат: {result:.2f}")
 main()
 
-=======
 def additional(a, b):
     return a + b
