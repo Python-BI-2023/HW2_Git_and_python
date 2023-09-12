@@ -1,3 +1,5 @@
+def add(a,b):
+    return a+b
 def main():
 #   eq = [int(i) if i.isdigit() else i for i in input().split()]
     eq = input().split()
