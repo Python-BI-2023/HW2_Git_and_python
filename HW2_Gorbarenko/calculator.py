@@ -1,8 +1,14 @@
 
 a,b,c = input().split()
-a = int(a)
-c = int(c)
-
+if ("." in a) or ("." in c):
+    a = float(a)
+    c = float(c)
+elif ("," in a) or ("," in c):
+    a = float(a.replace(',','.'))
+    c = float(c.replace(',','.'))
+else:
+    a = int(a)
+    c = int(c)
 
 def teilen(a,b):
     return(a / b)
