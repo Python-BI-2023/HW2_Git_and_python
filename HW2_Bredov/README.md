@@ -2,7 +2,7 @@ Script `calculator.py` performs all basic operations: addition, subtraction, mul
 
 Credits:
 
-*   Bobkov Gleb A. - implemented divion;
+*   Bobkov Gleb A. - implemented division;
 *   Bagrova Olga E. - implemented addition;
 *   Smertina Elena - implemented multiplication;
 *   Matach Dmitri A. - implemented subtraction;
