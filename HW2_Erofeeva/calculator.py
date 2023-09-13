@@ -1,15 +1,7 @@
-def multiply(a, b): 
-    return a * b
-
-def divide(a, b):
-    return a / b
-  
-def add(a, b):
-    return a + b
-
 def subtract(a, b):
     return a - b
- 
+
+
 def main():
     expression = input("Введите математическое выражение: ")
     number1, operator, number2 = expression.split()
@@ -30,5 +22,5 @@ def main():
     print(f"Результат: {result:.2f}")
 main()
 
-
-
+def additional(a, b):
+    return a + b
