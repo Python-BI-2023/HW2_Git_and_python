@@ -1,7 +1,7 @@
-def summa (a, b)
+def summa(a, b):
     answer = float(a) + float(b)
     return (answer)
-def raznost (a, b):
+def raznost(a, b):
     return(a - b)
 def delenie(a, b):
     result = a / b
@@ -21,3 +21,4 @@ def main():
         print(multiply(a, b))
     elif znak == "/":
         print(delenie(a, b))
+main()
