@@ -1,3 +1,6 @@
+def multiply(a,b):
+    answer = a * b
+    return(answer)
 def main():
     a, znak, b = input().split()
     a = float(a)
@@ -10,3 +13,4 @@ def main():
         print(multiply(a, b))
     elif znak == "/":
         print(delenie(a, b))
+
