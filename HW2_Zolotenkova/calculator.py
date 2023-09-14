@@ -1,3 +1,6 @@
+def summa (a, b)
+    answer = float(a) + float(b)
+    return (answer)
 def raznost (a, b):
     return(a - b)
 def delenie(a, b):
