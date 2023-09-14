@@ -1,3 +1,6 @@
+def delenie(a, b):
+    result = a / b
+    return result
 def multiply(a,b):
     answer = a * b
     return(answer)
