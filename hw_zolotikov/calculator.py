@@ -1,6 +1,7 @@
+def mysum(a, b):
+    return a+b
 def mydiv(x,y):
     return x/y
-
 def main():
     inp = input('vvedite to, chto nado poschitat')
     inp = inp.split(sep =' ')
@@ -19,3 +20,4 @@ def main():
     else:
         result = "Oshibka"
     print(result)
+main()
