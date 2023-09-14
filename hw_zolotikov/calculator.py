@@ -1,3 +1,7 @@
+def mymult(x, y):
+        return x * y
+def mysub(x, y):
+        return x - y
 def mysum(a, b):
     return a+b
 def mydiv(x,y):
