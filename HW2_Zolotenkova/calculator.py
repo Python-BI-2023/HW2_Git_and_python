@@ -1,3 +1,5 @@
+def raznost (a, b):
+    return(a - b)
 def delenie(a, b):
     result = a / b
     return result
@@ -16,4 +18,3 @@ def main():
         print(multiply(a, b))
     elif znak == "/":
         print(delenie(a, b))
-
