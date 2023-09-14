@@ -1,3 +1,6 @@
+def summa (a, b)
+    answer = float(a) + float(b)
+    return (answer)
 def main():
     a, znak, b = input().split()
     a = float(a)
