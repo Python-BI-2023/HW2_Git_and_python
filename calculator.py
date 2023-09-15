@@ -10,10 +10,8 @@ def calc_parser(calc_string):
     calc_list[2] = float(calc_list[0])
     return calc_list
 
-calculator_func_dict = {'+': addition, 
-                        '-': substraction, 
-                        '*': multiplication, 
-                        '/': division}
+calculator_func_dict = {'-': subtraction, 
+                        '*': multiply}
 
 calc_string = input('Enter your expression:')
 command = calc_parser(calc_string)[1]
