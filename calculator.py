@@ -13,16 +13,15 @@ def calc_parser(calc_string):
 calculator_func_dict = {'-': subtraction, 
                         '*': multiply}
 
-calc_string = input('Enter your expression:')
-command = calc_parser(calc_string)[1]
+calc_string = input('Enter your expression: ')
 
 while calc_string != 'exit':
+    command = calc_parser(calc_string)[1]
     if command in calculator_func_dict:
         print(calculator_func_dict[command](calc_parser(calc_string)[0], calc_parser(calc_string)[2]))
     else:
         print('Seems like an invalid expression. Please, enter valid expression!')
 
-    calc_string = input('Enter your expression:')
-    command = calc_parser(calc_string)[1]
+    calc_string = input('Enter your expression: ')
 
 print('See you next time!')
