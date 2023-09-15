@@ -18,7 +18,7 @@ command = calc_parser(calc_string)[1]
 
 while calc_string != 'exit':
     if command in calculator_func_dict:
-        print(calculator_func_dict[command](calc_parser(calc_string)[0], calc_parser(calc_string)[2]))
+        print(calculator_func_dict[command](calc_parser(calc_string)[0]), calc_parser(calc_string)[2])
     else:
         print('Seems like an invalid expression. Please, enter valid expression!')
 
