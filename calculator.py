@@ -7,7 +7,7 @@ def subtraction(a, b):
 def calc_parser(calc_string):
     calc_list = calc_string.split(' ')
     calc_list[0] = float(calc_list[0])
-    calc_list[2] = float(calc_list[0])
+    calc_list[2] = float(calc_list[2])
     return calc_list
 
 calculator_func_dict = {'-': subtraction, 
@@ -18,7 +18,7 @@ command = calc_parser(calc_string)[1]
 
 while calc_string != 'exit':
     if command in calculator_func_dict:
-        print(calculator_func_dict[command](calc_parser(calc_string)[0]), calc_parser(calc_string)[2])
+        print(calculator_func_dict[command](calc_parser(calc_string)[0], calc_parser(calc_string)[2]))
     else:
         print('Seems like an invalid expression. Please, enter valid expression!')
 
