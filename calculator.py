@@ -13,7 +13,7 @@ def calc_parser(calc_string):
 calc_string = input('Enter your expression:')
 command = calc_parser(calc_string)[1]
 
-while inp != 'exit':
+while calc_string != 'exit':
     if command in calculator_func_dict:
         print(calculator_func_dict[command](calc_string[0], calc_string[2]))
     else:
