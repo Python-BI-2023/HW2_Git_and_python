@@ -19,9 +19,9 @@ git clone git@github.com:YuryPopov/HW2_Git_and_python.git
 ```bash
 git clone https://github.com/YuryPopov/HW2_Git_and_python.git
 ``` 
-2. Launch application:
+2. Launch application (I'm hope, that you are inside app folder):
 ```bash
-python ./calculator.py
+python3 ./calculator.py
 ```
 3. After prompt (*Enter expression:*) enter your expression (numbers and arythmetical operator divided with spaces) and press *"Enter"* button.
 ***Pay attention***, programm works with integrer and float numbers and only with +, -, *, / operators.
