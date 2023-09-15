@@ -11,4 +11,5 @@ def multiplication(a, b):
     answer = a * b
     return answer
 
-
+def summing (a, b):
+    return a + b
