@@ -38,3 +38,5 @@ python3 ./calculator.py
 * Maria Uzun
 * Anastasia Shtompel
 * Alina Potyseva
+
+![Our team](/images/picture.jpg "Our team")
