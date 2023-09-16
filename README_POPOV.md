@@ -19,7 +19,7 @@ git clone git@github.com:YuryPopov/HW2_Git_and_python.git
 ```bash
 git clone https://github.com/YuryPopov/HW2_Git_and_python.git
 ``` 
-2. Launch application (I'm hope, that you are inside app folder):
+2. Launch application (I hope, that you are inside app folder):
 ```bash
 python3 ./calculator.py
 ```
