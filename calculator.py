@@ -84,7 +84,7 @@ def main():
     Returns:
         the result of the mathematical operation.
     """
-    input_ = input('Введите математическую операцию: \n').split()
+    input_ = input('Enter a mathematical operation: \n').split()
     num1 = float(input_[0])
     num2 = float(input_[2])
     operator = input_[1]
