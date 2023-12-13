@@ -11,12 +11,14 @@ def subtraction(num1, num2):
     return num1 - num2
 
 
+
+def multiplication(num1, num2):
+    return num1 * num2
+
 OPERATIONS = {
     '+': addition,
-    '-': subtraction}
-
-
-# '*' : multiplication,
+    '-': subtraction,
+    '*': multiplication}
 # '/' : division,
 # ':' : division
 
